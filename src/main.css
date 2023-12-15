@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&family=VT323&display=swap"); /* navbar */
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap"); /* text hero page */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"); /* headers */
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+/* bubble icons */
+.circles {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+  border: antiquewhite;
+}
+
+.circles li:nth-child(1) {
+  left: 55%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 5%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 45%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+} 
+/* --HERO PAGE-- */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    0deg,
+    hsl(240deg 36% 89%) 0%,
+    hsl(220deg 65% 88%) 4%,
+    hsl(208deg 86% 86%) 9%,
+    hsl(199deg 92% 83%) 13%,
+    hsl(191deg 87% 79%) 17%,
+    hsl(183deg 74% 74%) 22%,
+    hsl(172deg 71% 73%) 26%,
+    hsl(158deg 70% 75%) 30%,
+    hsl(145deg 65% 75%) 35%,
+    hsl(146deg 60% 72%) 39%,
+    hsl(148deg 56% 68%) 43%,
+    hsl(150deg 53% 64%) 48%,
+    hsl(152deg 51% 60%) 52%,
+    hsl(154deg 50% 56%) 57%,
+    hsl(156deg 49% 52%) 61%,
+    hsl(158deg 54% 47%) 65%,
+    hsl(157deg 47% 52%) 70%,
+    hsl(155deg 45% 60%) 74%,
+    hsl(154deg 45% 67%) 78%,
+    hsl(153deg 45% 74%) 83%,
+    hsl(152deg 45% 81%) 87%,
+    hsl(151deg 45% 87%) 91%,
+    hsl(150deg 45% 94%) 96%,
+    hsl(0deg 0% 100%) 100%
+  );
+}
+
+/* bottom arrow */
+
+#arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  height: 2rem;
+  width: auto;
+  border-radius: 60%;
+  box-shadow: rgba(228, 255, 245, 0.461) 5px 3px 9px;
+}
+
+a {
+  text-decoration: underline;
+  font-family: "Azeret Mono", monospace;
+  font-size: 1.2rem;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-container {
+  width: 100%;
+  background: rgb(241, 238, 238);
+  box-shadow: rgb(49, 58, 42) 5px 5px 15px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* animations */
+
+.zdog-canvas {
+  background: transparent;
+  cursor: move;
+  margin: 0 20px 0 5px;
+  position: absolute;
+  top: 55px;
+}
+
+/* text  */
+
+#mainText {
+  font-family: "Kalnia", serif;
+  color: rgb(74, 45, 9);
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 2rem;
+  text-shadow: white 15px 2px 15px;
+}
+
+#name {
+  font-size: 6rem;
+}
+
+#softwareEngineer {
+  font-size: 1.5rem;
+  margin: 4px;
+  padding: 3px;
+  color: rgb(128, 85, 6);
+  width: 335px;
+}
+
+/* text */
+
+.text {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.3rem;
+  color: rgb(54, 34, 8);
+}
+
+/* picture */
+
+#image {
+  max-width: 370px;
+  height: auto;
+  box-shadow: black 15px 15px 15px;
+  border-radius: 20%;
+  display: block;
+  position: relative;
+  margin-right: 2vw;
+  z-index: 2;
+}
+
+.socialMedia {
+  width: 35px;
+  height: 35px;
+  margin: 7px;
+  margin-top: 40px;
+  border-radius: 60%;
+  background-color: white;
+  box-shadow: white 5px 5px 15px;
+}
+
+/* headers */
+
+header {
+  font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.oddLetter {
+  color: rgb(41, 41, 220);
+}

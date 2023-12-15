@@ -1,0 +1,89 @@
+body {
+  background-color: darkblue;
+  animation-name: skyChange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.sun {
+  height: 80px;
+  width: 80px;
+  top: 30px;
+  left: 30px;
+  border-radius: 40px;
+  color: white;
+  animation-name: sunToMoon;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes skyChange {
+  0% {
+    background-color: darkblue;
+  }
+  50% {
+    background-color: lightblue;
+  }
+  100% {
+    background-color: lightcyan;
+  }
+}
+
+@keyframes sunToMoon {
+  from {
+    background: white;
+  }
+  to {
+    background: yellow;
+  }
+}
+
+@keyframes lightToDark {
+  from {
+    border-color: transparent transparent #000 transparent;
+  }
+  to {
+    border-color: transparent transparent #47b846 transparent;
+  }
+}
+
+@keyframes mountainTop {
+  from {
+    border-color: transparent transparent #000 transparent;
+  }
+  to {
+    border-color: transparent transparent #fffdfa transparent;
+  }
+}
+
+.mountain {
+  position: relative;
+  top: 200px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 300px 300px 300px;
+  border-color: transparent transparent #47b846 transparent;
+  transform: rotate(0deg);
+  animation-name: lightToDark;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.mountainTop {
+  position: relative;
+  right: 100px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 100px 100px 100px;
+  border-color: transparent transparent #fffdfa transparent;
+  transform: rotate(0deg);
+  animation-name: mountainTop;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

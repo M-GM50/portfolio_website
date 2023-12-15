@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+#resume {
+    display: flex;
+    justify-content: space-around;
+}
+
+#resumeImg {
+    margin-right: 4em;
+    border: hotpink 3px solid;
+    max-height: 480px;
+    transition: max-height 2s;
+    border-radius: 2%;
+    box-shadow: white 6px 10px 15px;
+}
+
+#resumeImg:hover {
+    max-height: 800px;
+    transition: max-height 2s;
+}
+

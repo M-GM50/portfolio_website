@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <dialog id="bulby">
+      <header>
+        <button id="dialogCross">✖</button>
+      </header>
+      <img src="./images/Bulbasaur.png" />
+      <p>Name: <span class="cardName">Bulbasaur</span></p>
+      <p>Number: <span class="cardId">#1</span></p>
+      <p>Height: <span class="cardHeight">0,7m</span></p>
+      <p>Weight: <span class="cardWeight">6kg</span></p>
+      <p>Type(s): <span class="cardTypes">Grass / Poison</span></p>
+    </dialog>
+
+    <table class="pokemonTable">
+      <!-- LINE 1 -->
+      <tr>
+        <td id="1" class="grassPoison">
+          Bulbasaur
+          <img src="./images/Bulbasaur.png" />
+        </td>
+
+        <td id="2" class="grassPoison">
+          Ivysaur
+          <img src="./images/Ivysaur.png" />
+        </td>
+
+        <td id="3" class="grassPoison">
+          Venusaur
+          <img src="./images/Venusaur.png" />
+        </td>
+
+        <td id="4" class="fire">
+          Charmander
+          <img src="./images/Charmander.png" />
+        </td>
+
+        <td id="5" class="fire">
+          Charmeleon
+          <img src="./images/Charmeleon.png" />
+        </td>
+
+        <td id="6" class="fireFlying">
+          Charizard
+          <img src="./images/Charizard.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 2 -->
+
+      <tr>
+        <td id="7" class="water">
+          Squirtle
+          <img src="./images/Squirtle.png" />
+        </td>
+
+        <td id="8" class="water">
+          Wartotle
+          <img src="./images/Wartortle.png" />
+        </td>
+
+        <td id="9" class="water">
+          Blastoise
+          <img src="./images/Blastoise.png" />
+        </td>
+
+        <td id="10" class="bug">
+          Caterpie
+          <img src="./images/Caterpie.png" />
+        </td>
+
+        <td id="11" class="bug">
+          Metapod
+          <img src="./images/Metapod.png" />
+        </td>
+
+        <td id="12" class="bugFlying">
+          Butterfree
+          <img src="./images/Butterfree.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 3 -->
+
+      <tr>
+        <td id="13" class="bugPoison">
+          Weedle
+          <img src="./images/Weedle.png" />
+        </td>
+
+        <td id="14" class="bugPoison">
+          Kakuna
+          <img src="./images/Kakuna.png" />
+        </td>
+
+        <td id="15" class="bugPoison">
+          Beedril
+          <img src="./images/Beedril.png" />
+        </td>
+
+        <td id="16" class="normalFlying">
+          Pidgey
+          <img src="./images/Pidgey.png" />
+        </td>
+
+        <td id="17" class="normalFlying">
+          Pidgeotto
+          <img src="./images/Pidgeotto.png" />
+        </td>
+
+        <td id="18" class="normalFlying">
+          Pigeot
+          <img src="./images/Pidgeot.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 4 -->
+
+      <tr>
+        <td id="19" class="normal">
+          Rattata
+          <img src="./images/Rattata.png" />
+        </td>
+
+        <td id="20" class="normal">
+          Raticate
+          <img src="./images/Raticate.png" />
+        </td>
+
+        <td id="21" class="normalFlying">
+          Spearow
+          <img src="./images/Spearow.png" />
+        </td>
+
+        <td id="22" class="normalFlying">
+          Fearow
+          <img src="./images/Fearow.png" />
+        </td>
+
+        <td id="23" class="poison">
+          Ekans
+          <img src="./images/Ekans.png" />
+        </td>
+
+        <td id="24" class="poison">
+          Arbok
+          <img src="./images/Arbok.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 5 -->
+
+      <tr>
+        <td id="25" class="electric">
+          Pikachu
+          <img src="./images/Pikachu.png" />
+        </td>
+
+        <td id="26" class="electric">
+          Raichu
+          <img src="./images/Raichu.png" />
+        </td>
+
+        <td id="27" class="ground">
+          Sandshrew
+          <img src="./images/Sandshrew.png" />
+        </td>
+
+        <td id="28" class="ground">
+          Sandslash
+          <img src="./images/Sandslash.png" />
+        </td>
+
+        <td id="29" class="poison">
+          Nidoran♀
+          <img src="./images/Nidoranf.png" />
+        </td>
+
+        <td id="30" class="poison">
+          Nidorina
+          <img src="./images/Nidorina.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 6 -->
+
+      <tr>
+        <td id="31" class="poisonGround">
+          Nidoqueen
+          <img src="./images/Nidoqueen.png" />
+        </td>
+
+        <td id="32" class="poison">
+          Nidoran♂
+          <img src="./images/Nidoranm.png" />
+        </td>
+
+        <td id="33" class="poison">
+          Nidorino
+          <img src="./images/Nidorino.png" />
+        </td>
+
+        <td id="34" class="poisonGround">
+          Nidoking
+          <img src="./images/Nidoking.png" />
+        </td>
+
+        <td id="35" class="fairy">
+          Clefairy
+          <img src="./images/Clefairy.png" />
+        </td>
+
+        <td id="36" class="fairy">
+          Clefable
+          <img src="./images/Clefable.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 7 -->
+
+      <tr>
+        <td id="37" class="fire">
+          Vulpix
+          <img src="./images/Vulpix.png" />
+        </td>
+
+        <td id="38" class="fire">
+          Ninetales
+          <img src="./images/Ninetales.png" />
+        </td>
+
+        <td id="39" class="normalFairy">
+          Jigglypuff
+          <img src="./images/Jigglypuff.png" />
+        </td>
+
+        <td id="40" class="normalFairy">
+          Wigglytuff
+          <img src="./images/Wigglytuff.png" />
+        </td>
+
+        <td id="41" class="poisonFlying">
+          Zubat
+          <img src="./images/Zubat.png" />
+        </td>
+
+        <td id="42" class="poisonFlying">
+          Golbat
+          <img src="./images/Golbat.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 8 -->
+
+      <tr>
+        <td id="43" class="grassPoison">
+          Oddish
+          <img src="./images/Oddish.png" />
+        </td>
+
+        <td id="44" class="grassPoison">
+          Gloom
+          <img src="./images/Gloom.png" />
+        </td>
+
+        <td id="45" class="grassPoison">
+          Vileplume
+          <img src="./images/Vileplume.png" />
+        </td>
+
+        <td id="46" class="bugGrass">
+          Paras
+          <img src="./images/Paras.png" />
+        </td>
+
+        <td id="47" class="bugGrass">
+          Parasect
+          <img src="./images/Parasect.png" />
+        </td>
+
+        <td id="48" class="bugPoison">
+          Venonat
+          <img src="./images/Venonat.png" />
+        </td>
+      </tr>
+
+      <!-- LIGNE 9-->
+
+      <tr>
+        <td id="49" class="bugPoison">
+          Venomoth
+          <img src="./images/Venomoth.png" />
+        </td>
+
+        <td id="50" class="ground">
+          Diglett
+          <img src="./images/Diglett.png" />
+        </td>
+
+        <td id="51" class="ground">
+          Dugtrio
+          <img src="./images/Dugtrio.png" />
+        </td>
+
+        <td id="52" class="normal">
+          Meowth
+          <img src="./images/Meowth.png" />
+        </td>
+
+        <td id="53" class="normal">
+          Persian
+          <img src="./images/Persian.png" />
+        </td>
+
+        <td id="54" class="water">
+          Psyduck
+          <img src="./images/Psyduck.png" />
+        </td>
+      </tr>
+
+      <!-- LIGNE 10 -->
+
+      <tr>
+        <td id="55" class="water">
+          Golduck
+          <img src="./images/Golduck.png" />
+        </td>
+
+        <td id="56" class="fight">
+          Mankey
+          <img src="./images/Mankey.png" />
+        </td>
+
+        <td id="57" class="fight">
+          Primeape
+          <img src="./images/Primeape.png" />
+        </td>
+
+        <td id="58" class="fire">
+          Growlithe
+          <img src="./images/Growlithe.png" />
+        </td>
+
+        <td id="59" class="fire">
+          Arcanine
+          <img src="./images/Arcanine.png" />
+        </td>
+
+        <td id="60" class="water">
+          Poliwag
+          <img src="./images/Poliwag.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 11 -->
+
+      <tr>
+        <td id="61" class="water">
+          Poliwhirl
+          <img src="./images/Poliwhirl.png" />
+        </td>
+
+        <td id="62" class="waterFight">
+          Poliwrath
+          <img src="./images/Poliwrath.png" />
+        </td>
+
+        <td id="63" class="psychic">
+          Abra
+          <img src="./images/Abra.png" />
+        </td>
+
+        <td id="64" class="psychic">
+          Kadabra
+          <img src="./images/Kadabra.png" />
+        </td>
+
+        <td id="65" class="psychic">
+          Alakazam
+          <img src="./images/Alakazam.png" />
+        </td>
+
+        <td id="66" class="fight">
+          Machop
+          <img src="./images/Machop.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 12 -->
+
+      <tr>
+        <td id="67" class="fight">
+          Machocke
+          <img src="./images/Machoke.png" />
+        </td>
+
+        <td id="68" class="fight">
+          Machamp
+          <img src="./images/Machamp.png" />
+        </td>
+
+        <td id="69" class="grassPoison">
+          Bellsprout
+          <img src="./images/Bellsprout.png" />
+        </td>
+
+        <td id="70" class="grassPoison">
+          Weepingbell
+          <img src="./images/Weepinbell.png" />
+        </td>
+
+        <td id="71" class="grassPoison">
+          Victreebel
+          <img src="./images/Victreebel.png" />
+        </td>
+
+        <td id="72" class="waterPoison">
+          Tentacool
+          <img src="./images/Tentacool.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 13 -->
+
+      <tr>
+        <td id="73" class="waterPoison">
+          Tentacruel
+          <img src="./images/Tentacruel.png" />
+        </td>
+
+        <td id="74" class="rockGround">
+          Geodude
+          <img src="./images/Geodude.png" />
+        </td>
+
+        <td id="75" class="rockGround">
+          Graveler
+          <img src="./images/Graveler.png" />
+        </td>
+
+        <td id="76" class="rockGround">
+          Golem
+          <img src="./images/Golem.png" />
+        </td>
+
+        <td id="77" class="fire">
+          Ponyta
+          <img src="./images/Ponyta.png" />
+        </td>
+
+        <td id="78" class="fire">
+          Rapidash
+          <img src="./images/Rapidash.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 14 -->
+
+      <tr>
+        <td id="79" class="waterPsychic">
+          Slowpoke
+          <img src="./images/Slowpoke.png" />
+        </td>
+
+        <td id="80" class="waterPsychic">
+          Slowbro
+          <img src="./images/Slowbro.png" />
+        </td>
+
+        <td id="81" class="electricSteel">
+          Magnemite
+          <img src="./images/Magnemite.png" />
+        </td>
+
+        <td id="82" class="electricSteel">
+          Magneton
+          <img src="./images/Magneton.png" />
+        </td>
+
+        <td id="83" class="normalFlying">
+          Farfetch'd
+          <img src="./images/Farfetchd.png" />
+        </td>
+
+        <td id="84" class="normalFlying">
+          Doduo
+          <img src="./images/Doduo.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 15 -->
+
+      <tr>
+        <td id="85" class="normalFlying">
+          Dodrio
+          <img src="./images/Dodrio.png" />
+        </td>
+
+        <td id="86" class="water">
+          Seel
+          <img src="./images/Seel.png" />
+        </td>
+
+        <td id="87" class="waterIce">
+          Dewdong
+          <img src="./images/Dewdong.png" />
+        </td>
+
+        <td id="88" class="poison">
+          Grimer
+          <img src="./images/Grimer.png" />
+        </td>
+
+        <td id="89" class="poison">
+          Muk
+          <img src="./images/Muk.png" />
+        </td>
+
+        <td id="90" class="water">
+          Shellder
+          <img src="./images/Shellder.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 16 -->
+
+      <tr>
+        <td id="91" class="water">
+          Cloyster
+          <img src="./images/Cloyster.png" />
+        </td>
+
+        <td id="92" class="ghostPoison">
+          Gaslty
+          <img src="./images/Gastly.png" />
+        </td>
+
+        <td id="93" class="ghostPoison">
+          Haunter
+          <img src="./images/Haunter.png" />
+        </td>
+
+        <td id="94" class="ghostPoison">
+          Gengar
+          <img src="./images/Gengar.png" />
+        </td>
+
+        <td id="95" class="rockGround">
+          Onix
+          <img src="./images/Onix.png" />
+        </td>
+
+        <td id="96" class="psychic">
+          Drowzee
+          <img src="./images/Drowzee.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 17 -->
+
+      <tr>
+        <td id="97" class="psychic">
+          Hypno
+          <img src="./images/Hypno.png" />
+        </td>
+
+        <td id="98" class="water">
+          Krabby
+          <img src="./images/Krabby.png" />
+        </td>
+
+        <td id="99" class="water">
+          Kingler
+          <img src="./images/Kingler.png" />
+        </td>
+
+        <td id="100" class="electric">
+          Voltorb
+          <img src="./images/Voltorb.png" />
+        </td>
+
+        <td id="101" class="electric">
+          Electrode
+          <img src="./images/Electrode.png" />
+        </td>
+
+        <td id="102" class="grassPsychic">
+          Exeggcute
+          <img src="./images/Exeggcute.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 18 -->
+
+      <tr>
+        <td id="103" class="grassPsychic">
+          Exeggutor
+          <img src="./images/Exeggutor.png" />
+        </td>
+
+        <td id="104" class="ground">
+          Cubone
+          <img src="./images/Cubone.png" />
+        </td>
+
+        <td id="105" class="ground">
+          Marowak
+          <img src="./images/Marowak.png" />
+        </td>
+
+        <td id="106" class="fight">
+          Hitmonlee
+          <img src="./images/Hitmonlee.png" />
+        </td>
+
+        <td id="107" class="fight">
+          Hitmonchan
+          <img src="./images/Hitmonchan.png" />
+        </td>
+
+        <td id="108" class="normal">
+          Lickitung
+          <img src="images/Lickitung.png" />
+        </td>
+      </tr>
+
+      <!-- LINE 19 -->
+
+      <tr>
+        <td id="109" class="poison">
+          Koffing
+          <img src="images/Koffing.png" />
+        </td>
+
+        <td id="110" class="poison">
+          Wheezing
+          <img src="images/Weezing.png" />
+        </td>
+
+        <td id="111" class="groundRock">
+          Rhyhorn
+          <img src="images/Rhyhorn.png" />
+        </td>
+
+        <td id="112" class="groundRock">
+          Rhydon
+          <img src="images/Rhydon.png" />
+        </td>
+
+        <td id="113" class="normal">
+          Chansey
+          <img src="images/Chansey.png" />
+        </td>
+
+        <td id="114" class="grass">
+          Tangela
+          <img src="images/Tangela.png" />
+        </td>
+      </tr>
+
+      <tr>
+        <td id="115" class="normal">
+          Kangaskhan
+          <img src="images/Kangaskhan.png" />
+        </td>
+
+        <td id="116" class="water">
+          Horsea
+          <img src="images/Horsea.png" />
+        </td>
+
+        <td id="117" class="water">
+          Seadra
+          <img src="images/Seadra.png" />
+        </td>
+
+        <td id="118" class="water">
+          Goldeen
+          <img src="images/Goldeen.png" />
+        </td>
+
+        <td id="119" class="water">
+          Seaking
+          <img src="images/Seaking.png" />
+        </td>
+
+        <td id="120" class="water">
+          Tangela
+          <img src="images/Staryu.png" />
+        </td>
+      </tr>
+
+      <tr>
+        <td id="121" class="waterPsychic">
+          Starmie
+          <img src="images/Starmie.png" />
+        </td>
+
+        <td id="122" class="psychicFairy">
+          Mr. Mime
+          <img src="images/MrMime.png" />
+        </td>
+
+        <td id="123" class="bugFlying">
+          Scyther
+          <img src="images/Scyther.png" />
+        </td>
+
+        <td id="124" class="icePsychic">
+          Jynx
+          <img src="images/Jynx.png" />
+        </td>
+
+        <td id="125" class="electric">
+          Electabuzz
+          <img src="images/Electabuzz.png" />
+        </td>
+
+        <td id="126" class="fire">
+          Magmar
+          <img src="images/Magmar.png" />
+        </td>
+      </tr>
+
+      <tr>
+        <td id="127" class="bug">
+          Pinsir
+          <img src="images/Pinsir.png" />
+        </td>
+
+        <td id="128" class="normal">
+          Tauros
+          <img src="images/Tauros.png" />
+        </td>
+
+        <td id="129" class="water">
+          Magikarp
+          <img src="images/Magikarp.png" />
+        </td>
+
+        <td id="130" class="waterFlying">
+          Gyarados
+          <img src="images/Gyarados.png" />
+        </td>
+
+        <td id="131" class="waterIce">
+          Lapras
+          <img src="images/Lapras.png" />
+        </td>
+
+        <td id="132" class="normal">
+          Ditto
+          <img src="images/Ditto.png" />
+        </td>
+      </tr>
+
+      <tr>
+        <td id="133" class="normal">
+          Eevee
+          <img src="images/Eevee.png" />
+        </td>
+
+        <td id="134" class="water">
+          Vaporeon
+          <img src="images/Vaporeron.png" />
+        </td>
+
+        <td id="135" class="electric">
+          Jolteon
+          <img src="images/Jolteon.png" />
+        </td>
+
+        <td id="136" class="fire">
+          Flareon
+          <img src="images/Flareon.png" />
+        </td>
+
+        <td id="137" class="normal">
+          Porygon
+          <img src="images/Porygon.png" />
+        </td>
+
+        <td id="138" class="rockWater">
+          Omanyte
+          <img src="images/Omanyte.png" />
+        </td>
+      </tr>
+
+      <tr>
+        <td id="139" class="rockWater">
+          Omastar
+          <img src="images/Omastar.png" />
+        </td>
+
+        <td id="140" class="rockWater">
+          Kabuto
+          <img src="images/Kabuto.png" />
+        </td>
+
+        <td id="141" class="rockWater">
+          Kabutops
+          <img src="images/Kabutops.png" />
+        </td>
+
+        <td id="142" class="rockFlying">
+          Aerodactyl
+          <img src="images/Aerodactyl.png" />
+        </td>
+
+        <td id="143" class="normal">
+          Snorlax
+          <img src="images/Snorlax.png" />
+        </td>
+
+        <td id="144" class="iceFlying">
+          Articuno
+          <img src="images/Articuno.png" />
+        </td>
+      </tr>
+
+      <tr>
+        <td id="145" class="electricFlying">
+          Zapdos
+          <img src="images/Zapdos.png" />
+        </td>
+
+        <td id="146" class="fireFlying">
+          Moltres
+          <img src="images/Moltres.png" />
+        </td>
+
+        <td id="147" class="dragon">
+          Dratini
+          <img src="images/Dratini.png" />
+        </td>
+
+        <td id="148" class="dragon">
+          Dragonair
+          <img src="images/Dragonair.png" />
+        </td>
+
+        <td id="149" class="dragonFlying">
+          Dragonite
+          <img src="images/Dragonite.png" />
+        </td>
+
+        <td id="150" class="psychic">
+          Mewtwo
+          <img src="images/Mewtwo.png" />
+        </td>
+      </tr>
+
+      <tr>
+        <td id="151" class="psychic">
+          Mew
+          <img src="images/Mew.png" />
+        </td>
+      </tr>
+    </table>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

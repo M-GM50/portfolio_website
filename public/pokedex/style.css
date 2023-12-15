@@ -1,0 +1,388 @@
+/* POKEMON NAMES */
+
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+dialog {
+  z-index: 5;
+}
+
+dialog img {
+  width: 90px;
+}
+
+/* TABLE DESIGN */
+
+.pokemonTable {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+  /* background: rgba(238, 224, 29, 0.5); */
+}
+
+.number {
+  color: black;
+}
+
+tr {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 50%;
+  text-align: center;
+}
+
+td {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 0) 100%
+  );
+  border: 1px solid rgba(238, 224, 29, 0.5);
+  scale: 0, 1;
+  border-radius: 2%;
+  transition: scale 1s, border-radius 1s;
+}
+
+td:hover {
+  border: 2px solid rgba(238, 224, 29, 0.5);
+  border-radius: 30%;
+  scale: 1.5;
+}
+
+img {
+  display: block;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* COLOR TYPE */
+
+.bug {
+  background-color: rgb(153, 184, 113);
+}
+
+.dragon {
+  background-color: rgb(168, 141, 193);
+}
+
+.electric {
+  background-color: rgb(224, 224, 100);
+}
+
+.fairy {
+  background-color: rgb(236, 147, 175);
+}
+
+.fight {
+  background-color: rgb(216, 114, 114);
+}
+
+.fire {
+  background-color: rgb(219, 127, 52);
+}
+
+.flying {
+  background-color: rgb(129, 219, 233);
+}
+
+.ghost {
+  background-color: rgb(149, 62, 231);
+}
+
+.grass {
+  background-color: rgb(98, 185, 98);
+}
+
+.ground {
+  background-color: rgb(190, 156, 111);
+}
+
+.ice {
+  background-color: rgb(179, 219, 217);
+}
+
+.normal {
+  background-color: rgb(185, 178, 178);
+}
+
+.poison {
+  background-color: rgb(219, 192, 243);
+}
+
+.psychic {
+  background-color: rgb(219, 139, 179);
+}
+
+.rock {
+  background-color: rgb(125, 129, 129);
+}
+
+.water {
+  background-color: rgba(69, 180, 231, 0.836);
+}
+
+/* DOUBLE TYPE */
+
+.bugFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(129, 219, 233) 38%, rgb(153, 184, 113) 65%);
+}
+
+.bugGrass {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(98, 185, 98) 38%, rgb(153, 184, 113) 65%);
+}
+
+.bugPoison {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(219, 192, 243) 38%, rgb(153, 184, 113) 65%);
+}
+
+.dragonFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(129, 219, 233) 38%, rgb(168, 141, 193) 65%);
+}
+
+.electricFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(129, 219, 233) 38%, rgb(224, 224, 100) 65%);
+}
+
+.electricSteel {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(154, 154, 149) 38%, rgb(224, 224, 100) 65%);
+}
+
+.fireFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(129, 219, 233) 38%, rgb(219, 127, 52) 65%);
+}
+
+.ghostPoison {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(219, 192, 243) 38%, rgb(122, 83, 160) 65%);
+}
+
+.grassPoison {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(243, 140, 192) 38%, rgb(98, 185, 98) 65%);
+}
+
+.grassPsychic {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(173, 148, 197) 38%, rgb(98, 185, 98) 65%);
+}
+
+.groundRock {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(185, 192, 192) 38%, rgb(190, 156, 111) 65%);
+}
+
+.iceFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(129, 219, 233) 38%, rgb(179, 219, 217) 65%);
+}
+
+.icePsychic {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(173, 148, 197) 38%, rgb(179, 219, 217) 65%);
+}
+
+.normalFairy {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(216, 163, 181) 38%, rgb(185, 178, 178) 65%);
+}
+
+.normalFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(176, 224, 222) 38%, rgb(185, 178, 178) 65%);
+}
+
+.poisonFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(176, 224, 222) 38%, rgb(219, 192, 243) 65%);
+}
+
+.poisonGround {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(214, 178, 130) 38%, rgb(219, 192, 243) 65%);
+}
+
+.psychicFairy {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(216, 163, 181) 38%, rgb(173, 148, 197) 65%);
+}
+
+.rockFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(129, 219, 233) 38%, rgb(125, 129, 129) 65%);
+}
+
+.rockGround {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(239deg, rgb(190, 156, 111) 38%, rgb(125, 129, 129) 65%);
+}
+
+.rockWater {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(
+      239deg,
+      rgba(69, 180, 231, 0.836) 38%,
+      rgb(125, 129, 129) 65%
+    );
+}
+
+.waterFight {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(
+      239deg,
+      rgb(216, 114, 114) 38%,
+      rgba(69, 180, 231, 0.836) 65%
+    );
+}
+
+.waterIce {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(
+      239deg,
+      rgb(179, 219, 217) 38%,
+      rgba(69, 180, 231, 0.836) 65%
+    );
+}
+
+.waterPoison {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(
+      239deg,
+      rgb(219, 192, 243) 38%,
+      rgba(69, 180, 231, 0.836) 65%
+    );
+}
+
+.waterPsychic {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(
+      239deg,
+      rgb(219, 139, 179) 38%,
+      rgba(69, 180, 231, 0.836) 65%
+    );
+
+}
+.waterFlying {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 0) 100%
+    ),
+    linear-gradient(
+      239deg,
+      rgb(154, 217, 226) 38%,
+      rgba(69, 180, 231, 0.836) 65%
+    );
+}

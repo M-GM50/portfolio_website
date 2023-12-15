@@ -1,0 +1,59 @@
+/* --MY STORY-- */
+
+/* story pictures */
+
+.storyContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.text {
+  margin: 0 auto;
+  line-height: 2rem;
+}
+
+.storyText {
+  width: 45%;
+}
+/* 
+.storyText figure {
+  flex-direction: column;
+  align-items: center;
+  max-width: 40%;
+} */
+
+.pictures {
+  width: 230px;
+  height: auto;
+  border: hotpink 10px solid;
+  border-radius: 30px;
+}
+
+#captions {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: hotpink;
+  font-weight: bold;
+  color: cornsilk;
+  margin: auto;
+  width: 180px;
+  padding: 1rem;
+  line-height: 25px;
+}
+
+/* Spans */
+
+#temp {
+  font-size: 22px;
+}
+
+#hooked {
+  font-size: 28px;
+  font-style: oblique;
+}

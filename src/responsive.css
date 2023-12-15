@@ -1,0 +1,149 @@
+@media only screen and (max-width: 600px) {
+  /* Extra small devices (phones, 600px and down) */
+  #arrow {
+    display: none;
+    position: relative;
+  }
+  a {
+    font-size: 0.5rem;
+  }
+
+  .text {
+    font-size: 0.7rem;
+    max-width: 200px;
+    margin: 0 auto;
+    line-height: 1rem;
+  }
+
+  #navbar {
+    padding: 0.5em;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  #navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #mainText {
+    display: block;
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  #name {
+    font-size: 1.5rem;
+  }
+
+  #softwareEngineer {
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .circles {
+    display: none;
+  }
+
+  .zdog-canvas {
+    display: none;
+  }
+
+  #image {
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .socialMedia {
+    display: none;
+  }
+
+  h1 {
+    padding: 0.5rem;
+    margin: 0;
+  }
+
+  header {
+    font-size: 1.3rem;
+    padding-top: 2rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  /* MY STORY */
+
+  .storyContainer {
+    max-width: 250px;
+    display: block;
+  }
+
+  .storyText p {
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+
+  .pictures {
+    width: 100px;
+    height: auto;
+    border: hotpink 5px solid;
+  }
+
+  #captions {
+    font-size: 0.5rem;
+    width: 120px;
+    padding: 1px;
+    line-height: 15px;
+  }
+
+  #temp {
+    font-size: 1rem;
+  }
+
+  #hooked {
+    font-size: 14px;
+    font-style: oblique;
+  }
+
+  /* RESUME */
+
+  #resume {
+    display: block;
+  }
+
+  #resume p {
+    line-height: 1.5rem;
+  }
+
+  #resumeImg {
+    border: hotpink 1px solid;
+    max-height: 200px;
+    margin: 2rem;
+  }
+
+  /* SKILLS */
+
+  #skills {
+    display: block;
+    width: 200px;
+  }
+
+  .cube {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 100px;
+    height: 105px;
+  }
+
+  .cube img {
+    width: auto;
+    height: 35px;
+  }
+
+  #css {
+    font-size: 0.7rem;
+  }
+}
