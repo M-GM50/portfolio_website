@@ -1,43 +1,45 @@
-#skills{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 600px;
-    margin:auto;
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 600px;
+  margin: auto;
 }
 
-.cube{
-    display: flex;
-    justify-content: center;
-    width: 140px;
-    height: 125px;
-    border: white 2px solid;
-    border-radius: 5%;
-    margin: 1rem 3rem;
-    box-shadow: white 6px 10px 15px;
+.cube {
+  display: flex;
+  justify-content: center;
+  width: 140px;
+  height: 95px;
+  border: white 2px solid;
+  border-radius: 5%;
+  margin: 1rem 3rem;
+  box-shadow: white 6px 10px 15px;
+  text-align: center;
+  padding: 10px 0;
 }
 
-.cube p{
-    text-align: center;
-
+.cube figure {
+  margin: 0;
 }
 
-.cube img{
-    width: auto;
-    height: 55px;
-
+.cube p {
+  text-align: center;
 }
-.captionSkills{
+
+.cube img {
+  width: auto;
+  height: 55px;
+}
+.captionSkills {
   text-align: center;
   font-size: 1rem;
   border-radius: 5px;
   padding: 10px 0;
   font-weight: bold;
   color: cornsilk;
-
 }
 
-#css{
-    font-size: 12px;
-
+#css {
+  font-size: 12px;
 }
