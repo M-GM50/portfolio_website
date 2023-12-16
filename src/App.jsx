@@ -6,8 +6,8 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import "./main.css";
-import "./responsive.css"
-import "./externalHelp.css"
+import "./responsive.css";
+import "./externalHelp.css";
 
 function App() {
   let canvas;

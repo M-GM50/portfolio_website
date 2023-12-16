@@ -17,7 +17,7 @@ function Hero() {
 
   return (
     <>
-      <ul class="circles">
+      <ul className="circles">
         <li>
           <svg
             role="img"
@@ -157,21 +157,21 @@ function Hero() {
               <a href="https://www.linkedin.com/in/marionm50/" target="_blank">
                 <img
                   className="socialMedia"
-                  src="linkedin.svg"
+                  src="./images/linkedin.svg"
                   alt="linkedin link"
                 ></img>
               </a>
               <a href="https://github.com/M-GM50" target="_blank">
                 <img
                   className="socialMedia"
-                  src="github.svg"
+                  src="./images/github.svg"
                   alt="link to GitHub"
                 />
               </a>
             </p>
           </h1>
         </div>
-        <img id="image" src="/me.jpg" />
+        <img id="image" src="./images/me.jpg" />
       </section>
 
       {/* Scroll up arrow */}

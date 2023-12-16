@@ -12,7 +12,7 @@ function Resume() {
       </header>
 
       <section id="resume">
-        <img id="resumeImg" src="resume.png" />
+        <img id="resumeImg" src="./images/resume.png" />
         <div className="text">
           <br></br>
           <p>This is a very brief summary of my life.</p>

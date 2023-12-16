@@ -14,7 +14,7 @@ function Skills() {
       <section id="skills">
         <div className="cube">
           <figure>
-            <img src="html.svg" />
+            <img src="./images/html.svg" />
             <figcaption className="captionSkills">
               <span id="css">HTML CSS JS</span>
             </figcaption>
@@ -22,31 +22,31 @@ function Skills() {
         </div>
         <div className="cube">
           <figure>
-            <img src="react.svg" />
+            <img src="./images/react.svg" />
             <figcaption className="captionSkills">React.js</figcaption>
           </figure>
         </div>
         <div className="cube">
           <figure>
-            <img src="nextjs.svg" />
+            <img src="./images/nextjs.svg" />
             <figcaption className="captionSkills">Next.js</figcaption>
           </figure>
         </div>
         <div className="cube">
           <figure>
-            <img src="python.svg" />
+            <img src="./images/python.svg" />
             <figcaption className="captionSkills">Python</figcaption>
           </figure>
         </div>
         <div className="cube">
           <figure>
-            <img src="sqlite.svg" />
+            <img src="./images/sqlite.svg" />
             <figcaption className="captionSkills">SQLite</figcaption>
           </figure>
         </div>
         <div className="cube">
           <figure>
-            <img src="figma.svg" />
+            <img src="./images/figma.svg" />
             <figcaption className="captionSkills">Figma</figcaption>
           </figure>
         </div>

@@ -1,3 +1,14 @@
+/* animations */
+
+.zdog-canvas {
+  background: transparent;
+  cursor: move;
+  margin: 0 20px 0 5px;
+  position: absolute;
+  top: 55px;
+  z-index: 3;
+}
+
 /* bubble icons */
 
 .circles {
@@ -5,7 +16,7 @@
   top: 50px;
   left: 0;
   width: 95vw;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
 
@@ -21,14 +32,14 @@
 }
 
 .circles li:nth-child(1) {
-  left: 55%;
+  left: 35%;
   width: 80px;
   height: 80px;
   animation-delay: 0s;
 }
 
 .circles li:nth-child(2) {
-  left: 10%;
+  left: 3%;
   width: 20px;
   height: 20px;
   animation-delay: 2s;
@@ -51,21 +62,21 @@
 }
 
 .circles li:nth-child(5) {
-  left: 65%;
+  left: 45%;
   width: 20px;
   height: 20px;
   animation-delay: 0s;
 }
 
 .circles li:nth-child(6) {
-  left: 5%;
+  left: 45%;
   width: 50px;
   height: 50px;
   animation-delay: 3s;
 }
 
 .circles li:nth-child(7) {
-  left: 45%;
+  left: 30%;
   width: 150px;
   height: 150px;
   animation-delay: 7s;
@@ -96,7 +107,7 @@
 }
 
 .circles li:nth-child(11) {
-  left: 30%;
+  left: 2%;
   width: 100px;
   height: 100px;
   animation-delay: 2s;
@@ -149,14 +160,4 @@ body {
     hsl(150deg 45% 94%) 96%,
     hsl(0deg 0% 100%) 100%
   );
-}
-
-/* animations */
-
-.zdog-canvas {
-  background: transparent;
-  cursor: move;
-  margin: 0 20px 0 5px;
-  position: absolute;
-  top: 55px;
 }

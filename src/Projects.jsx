@@ -19,7 +19,7 @@ function Projects() {
                 className="captionsP"
                 href="/pokedex/index.html"
                 target="_blank"
-              >  
+              >
                 Pokédex (JavaScript)
               </a>
             </figcaption>
@@ -49,7 +49,7 @@ function Projects() {
           <a href="/cssTransition/index.html" target="_blank">
             <img
               className="projectPictures"
-              src="/cssProject.png"
+              src="./images/cssProject.png"
               alt="css project link"
             />
           </a>
@@ -73,7 +73,7 @@ function Projects() {
           >
             <img
               className="projectPictures"
-              src="/pythonProject.png"
+              src="./images/pythonProject.png"
               alt="python project link"
             />
           </a>
@@ -97,7 +97,7 @@ function Projects() {
           >
             <img
               className="projectPictures"
-              src="/form.png"
+              src="./images/form.png"
               alt="react project link"
             />
           </a>
@@ -121,7 +121,7 @@ function Projects() {
           >
             <img
               className="projectPictures"
-              src="colourPicker.png"
+              src="./images/colourPicker.png"
               alt="React Project link"
             />
           </a>

@@ -34,6 +34,8 @@ a:hover {
   width: 100%;
   background: rgb(241, 238, 238);
   box-shadow: rgb(49, 58, 42) 5px 5px 15px;
+  position: relative;
+  z-index: 2;
 }
 
 #navbar {

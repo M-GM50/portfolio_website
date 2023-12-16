@@ -28,7 +28,11 @@ function Contact() {
       <div id="contactMe" className="text">
         <div className="contactContainer">
           Drop me a line!
-          <img className="logoContacts" src="/hey.svg" alt="email link" />
+          <img
+            className="logoContacts"
+            src="./images/hey.svg"
+            alt="email link"
+          />
           <p>
             <DoubleArrow />
             <a href="mailto:marion@hey.com">marion@hey.com</a>
@@ -38,7 +42,7 @@ function Contact() {
           Connect with me!
           <img
             className="logoContacts"
-            src="/linkedin.svg"
+            src="./images/linkedin.svg"
             alt="linkedin link"
           />
           <a href="https://www.linkedin.com/in/marionm50/" target="_blank">
@@ -51,7 +55,11 @@ function Contact() {
         </div>
         <div className="contactContainer">
           Check out my code!
-          <img className="logoContacts" src="/github.svg" alt="github link" />
+          <img
+            className="logoContacts"
+            src="./images/github.svg"
+            alt="github link"
+          />
           <p>
             <a href="https://github.com/M-GM50" target="_blank">
               <DoubleArrow />
