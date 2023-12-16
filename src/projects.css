@@ -10,19 +10,27 @@
 .projectGreyCube {
   height: 170px;
   width: 250px;
-  border: rgb(244, 226, 235) 5px solid;
+  border: rgb(244, 226, 235) 5px inset;
   border-radius: 2%;
   margin-bottom: 15px;
-  background-color: black;
+  background-color: rebeccapurple;
+}
+
+.projectGreyCube:hover {
+ box-shadow: green 5px 5px 15px 5px;
 }
 
 .projectPinkCube {
   height: 170px;
   width: 250px;
-  border: rgb(242, 192, 54) 5px solid;
+  border: rgb(242, 192, 54) 5px inset;
   border-radius: 2%;
   margin-bottom: 15px;
-  background-color: black;
+  background-color: forestgreen;
+}
+
+.projectPinkCube:hover {
+  box-shadow: rebeccapurple 5px 5px 15px 5px;
 }
 
 .projectPictures {

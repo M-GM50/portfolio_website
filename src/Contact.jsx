@@ -26,15 +26,15 @@ function Contact() {
       </header>
 
       <div id="contactMe" className="text">
-        <div className="hey">
-          Drop me line!
+        <div className="contactContainer">
+          Drop me a line!
           <img className="logoContacts" src="/hey.svg" alt="email link" />
           <p>
             <DoubleArrow />
             <a href="mailto:marion@hey.com">marion@hey.com</a>
           </p>
         </div>
-        <div className="linkedin">
+        <div className="contactContainer">
           Connect with me!
           <img
             className="logoContacts"
@@ -49,8 +49,8 @@ function Contact() {
             </p>
           </a>
         </div>
-        <div className="github">
-          Check out what I've done!
+        <div className="contactContainer">
+          Check out my code!
           <img className="logoContacts" src="/github.svg" alt="github link" />
           <p>
             <a href="https://github.com/M-GM50" target="_blank">

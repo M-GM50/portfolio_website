@@ -1,3 +1,9 @@
+.logoContacts {
+  height: 35px;
+  width: auto;
+  padding-left: 20px;
+}
+
 #contactMe {
   text-align: left;
   display: flex;
@@ -13,8 +19,3 @@
   fill: white;
 }
 
-.logoContacts {
-  height: 40px;
-  width: auto;
-  padding-left: 20px;
-}

@@ -19,6 +19,7 @@
   padding: 10px 0;
 }
 
+
 .cube figure {
   margin: 0;
 }
@@ -30,6 +31,11 @@
 .cube img {
   width: auto;
   height: 55px;
+}
+
+.cube img:hover{
+  height: 65px;
+
 }
 .captionSkills {
   text-align: center;

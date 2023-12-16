@@ -7,6 +7,8 @@
 
 #resumeImg {
     margin-right: 4em;
+    margin-left: 2em;
+    margin-top: 1em;
     border: hotpink 3px solid;
     max-height: 480px;
     transition: max-height 2s;

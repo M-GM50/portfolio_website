@@ -5,7 +5,7 @@
     position: relative;
   }
   a {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
   .text {
@@ -30,7 +30,6 @@
   #mainText {
     display: block;
     font-size: 1rem;
-    padding: 0;
   }
 
   #name {
@@ -62,7 +61,6 @@
 
   h1 {
     padding: 0.5rem;
-    margin: 0;
   }
 
   header {
@@ -83,18 +81,20 @@
 
   .storyText p {
     width: 100%;
+    font-size: 1rem;
     padding-bottom: 0.5rem;
+    line-height: 1.5rem
   }
 
   .pictures {
-    width: 100px;
+    width: 150px;
     height: auto;
     border: hotpink 5px solid;
   }
 
   #captions {
-    font-size: 0.5rem;
-    width: 120px;
+    font-size: 0.6rem;
+    width: 140px;
     padding: 1px;
     line-height: 15px;
   }
@@ -115,13 +115,14 @@
   }
 
   #resume p {
+    font-size: 1rem;
     line-height: 1.5rem;
   }
 
   #resumeImg {
     border: hotpink 1px solid;
     max-height: 200px;
-    margin: 2rem;
+    margin-left: 20vw;
   }
 
   /* SKILLS */
@@ -146,4 +147,26 @@
   #css {
     font-size: 0.7rem;
   }
+
+
+/* CONTACT */
+
+#contactMe {
+    flex-direction: column;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.logoContacts {
+  height: 20px;
+}
+
+.logoContacts {
+display: none;
+}
+
+.contactContainer {
+  margin: 1.4vh;
+}
+
 }

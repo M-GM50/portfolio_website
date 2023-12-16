@@ -46,10 +46,13 @@ function MyStory() {
             <a href="https://www.offf.barcelona/">OFF Barcelona 2023</a> where I
             was able to learn more about the tech world.
           </p>
-          <p>I also went to <a href="https://reactnorway.com/">React Norway</a> in Larvik.</p>
           <p>
-            I then joined a Software Engineering Bootcamp. It was decisive turn.
-            It was happening.
+            I also went to <a href="https://reactnorway.com/">React Norway</a>{" "}
+            in Larvik.
+          </p>
+          <p>
+            Then I joined a Software Engineering Bootcamp. It was a decisive
+            turn. It was happening.
           </p>
         </div>
 
