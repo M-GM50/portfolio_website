@@ -177,7 +177,7 @@ function Hero() {
       {/* Scroll up arrow */}
 
       <a href="#navbar">
-        <img src="/scrollUpArrow.png" id="arrow" ref={showArrow} />{" "}
+        <img src="./images/scrollUpArrow.png" id="arrow" ref={showArrow} />{" "}
       </a>
     </>
   );
