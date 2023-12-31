@@ -42,7 +42,7 @@ function MyStory() {
           </p>
           <p>I started going to various tech events.</p>
           <p>
-            I first one was{" "}
+            The first one was{" "}
             <a href="https://www.offf.barcelona/">OFF Barcelona 2023</a> where I
             was able to learn more about the tech world.
           </p>
