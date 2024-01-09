@@ -27,7 +27,7 @@ function Resume() {
           </p>
           <p>
             My most notable job was working a cabin crew on the Eurostar. I had
-            the time of life.
+            the time of my life.
           </p>
           <p>
             I was living between London, Paris, Brussels, the French Riviera in
