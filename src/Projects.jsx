@@ -27,7 +27,7 @@ function Projects() {
           <a href="/pokedex/index.html" target="_blank">
             <img
               className="projectPictures"
-              src="./public/pokedex/images/Pikachu.png"
+              src="./images/pikachuThumbnail.png"
               alt="pokedex link"
             />
           </a>
