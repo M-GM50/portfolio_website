@@ -24,7 +24,7 @@ function MyStory() {
           <p>My adventure with coding started in 2019.</p>
           <p>
             I was having the time of my life in Québec when the pandemic hit and
-            put me of out a job.
+            put me out of a job.
           </p>
           <p>
             I used that time off to try and learn something new. My partner is a
