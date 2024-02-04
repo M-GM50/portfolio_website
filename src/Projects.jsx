@@ -102,6 +102,27 @@ function Projects() {
             />
           </a>
         </div>
+        <div className="projectPinkCube">
+          <figure>
+            <figcaption>
+              <a
+                className="captionsP"
+                href="https://sizo04.github.io/group-project-1/"
+                target="_blank"
+              >
+                {" "}
+                Collaborative Work (CSS)
+              </a>{" "}
+            </figcaption>
+          </figure>
+          <a href="https://sizo04.github.io/group-project-1/" target="_blank">
+            <img
+              className="projectPictures"
+              src="./images/branko.png"
+              alt="python project link"
+            />
+          </a>
+        </div>
         <div className="projectGreyCube">
           <figure>
             <figcaption>

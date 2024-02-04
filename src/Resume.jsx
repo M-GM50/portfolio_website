@@ -39,7 +39,7 @@ function Resume() {
             frequently use.
           </p>
           <p>I made this resume on Figma. Figma is awesome.</p>
-          <p><a href = "/cv.pdf" target= "_blank">DOWNLOAD IT HERE</a></p>
+          <p><a href = "./images/WebDev.pdf" target= "_blank">DOWNLOAD IT HERE</a></p>
         </div>
       </section>
     </>

@@ -51,8 +51,8 @@ function MyStory() {
             in Larvik.
           </p>
           <p>
-            Then I joined a Software Engineering Bootcamp. It was a decisive
-            turn. It was happening.
+            Then I graduated a Software Engineering Bootcamp and now I am part of a frontend training programme.
+            It was a decisive turn. It was happening. 
           </p>
         </div>
 
