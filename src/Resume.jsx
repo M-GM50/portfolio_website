@@ -12,7 +12,7 @@ function Resume() {
       </header>
 
       <section id="resume">
-        <img id="resumeImg" src="./images/resume.png" />
+        <img id="resumeImg" src="./images/WebDev.pdf" />
         <div className="text">
           <br></br>
           <p>This is a very brief summary of my life.</p>
@@ -39,7 +39,11 @@ function Resume() {
             frequently use.
           </p>
           <p>I made this resume on Figma. Figma is awesome.</p>
-          <p><a href = "./images/WebDev.pdf" target= "_blank">DOWNLOAD IT HERE</a></p>
+          <p>
+            <a href="./images/WebDev.pdf" target="_blank">
+              DOWNLOAD IT HERE
+            </a>
+          </p>
         </div>
       </section>
     </>
