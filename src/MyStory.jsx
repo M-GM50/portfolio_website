@@ -24,7 +24,7 @@ function MyStory() {
           <p>My adventure with coding started in 2019.</p>
           <p>
             I was having the time of my life in Québec when the pandemic hit and
-            put me of out a job.
+            put me out of a job.
           </p>
           <p>
             I used that time off to try and learn something new. My partner is a
@@ -42,7 +42,7 @@ function MyStory() {
           </p>
           <p>I started going to various tech events.</p>
           <p>
-            I first one was{" "}
+            The first one was{" "}
             <a href="https://www.offf.barcelona/">OFF Barcelona 2023</a> where I
             was able to learn more about the tech world.
           </p>
