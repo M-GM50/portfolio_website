@@ -19,3 +19,18 @@
   fill: white;
 }
 
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  align-items: center;
+  margin:0 auto;
+  padding-bottom:40px;
+}
+
+#submit-button{
+  align-self: flex-start;
+  position:relative;
+  left:85px;
+}
+

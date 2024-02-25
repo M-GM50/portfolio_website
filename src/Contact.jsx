@@ -25,6 +25,23 @@ function Contact() {
         </h2>
       </header>
 
+      <form id="contact-form" name="contact" method="POST" data-netlify="true">
+        <span className="text">Name: </span>
+        <input type="text"/>
+        <span className="text">Email: </span>
+        <input type="email" />
+        <span className="text">Message:</span>
+        <textarea
+          id="bio"
+          rows="3"
+          cols="30"
+          placeholder="Write something..."
+        ></textarea>
+        <span id="submit-button">
+          <input type="submit" value="Submit" className="text" />
+        </span>
+      </form>
+
       <div id="contactMe" className="text">
         <div className="contactContainer">
           Drop me a line!
