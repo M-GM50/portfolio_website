@@ -16,6 +16,21 @@ function DoubleArrow() {
   );
 }
 
+function onSubmit(e) {
+  e.preventDefault();
+
+  let data = new FormData(e.target);
+
+  fetch("https://marion.codes/.netlify/functions/send-email", {
+    method: "POST",
+    body: data,
+  })
+    .then((response) => response.json())
+    .then((result) => {
+      console.log(result);
+    });
+}
+
 function Contact() {
   return (
     <>
@@ -25,16 +40,17 @@ function Contact() {
         </h2>
       </header>
 
-      <form id="contact-form" name="contact" method="POST" netlify>
+      <form id="contact-form" name="contact" method="POST" onSubmit={onSubmit}>
         <span className="text">Name: </span>
-        <input type="text" />
+        <input type="text" name="name" />
         <span className="text">Email: </span>
-        <input type="email" />
+        <input type="email" name="email" />
         <span className="text">Message:</span>
         <textarea
           id="bio"
           rows="3"
           cols="30"
+          name="message"
           placeholder="Write something..."
         ></textarea>
         <span id="submit-button">
