@@ -16,21 +16,6 @@ function DoubleArrow() {
   );
 }
 
-function onSubmit(e) {
-  e.preventDefault();
-
-  let data = new FormData(e.target);
-
-  fetch("https://marion.codes/.netlify/functions/send-email", {
-    method: "POST",
-    body: data,
-  })
-    .then((response) => response.json())
-    .then((result) => {
-      console.log(result);
-    });
-}
-
 function Contact() {
   return (
     <>
@@ -40,7 +25,12 @@ function Contact() {
         </h2>
       </header>
 
-      <form id="contact-form" name="contact" method="POST" onSubmit={onSubmit}>
+      <form
+        id="contact-form"
+        action="https://marion-contact.web.val.run"
+        name="contact"
+        method="POST"
+      >
         <span className="text">Name: </span>
         <input type="text" name="name" />
         <span className="text">Email: </span>
