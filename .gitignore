@@ -17,3 +17,6 @@ dist-ssr
 
 *.zip
 
+
+# Local Netlify folder
+.netlify
