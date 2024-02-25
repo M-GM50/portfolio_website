@@ -25,9 +25,9 @@ function Contact() {
         </h2>
       </header>
 
-      <form id="contact-form" name="contact" method="POST" data-netlify="true">
+      <form id="contact-form" name="contact" method="POST" netlify>
         <span className="text">Name: </span>
-        <input type="text"/>
+        <input type="text" />
         <span className="text">Email: </span>
         <input type="email" />
         <span className="text">Message:</span>
