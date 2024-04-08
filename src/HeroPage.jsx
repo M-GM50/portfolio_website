@@ -153,7 +153,7 @@ function Hero() {
             <p>My name is</p>
             <p id="name">Marion</p>
             <p id="softwareEngineer">
-              I'm a software engineer
+              I'm a software engineer <br></br>
               <a href="https://www.linkedin.com/in/marionm50/" target="_blank">
                 <img
                   className="socialMedia"
@@ -177,7 +177,7 @@ function Hero() {
       {/* Scroll up arrow */}
 
       <a href="#navbar">
-        <img src="./images/scrollUpArrow.png" id="arrow" ref={showArrow} />{" "}
+        <img src="./images/buttons/scrollUpArrow.png" id="arrow" ref={showArrow} />{" "}
       </a>
     </>
   );
