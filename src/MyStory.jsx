@@ -13,7 +13,7 @@ function MyStory() {
 
       <div className="storyContainer">
         <figure>
-          <img className="pictures" src="./images/white_hair.jpg" />
+          <img className="pictures" src="./images/others/white_hair.jpg" />
           <figcaption id="captions">
             <span id="temp">-32C</span>
             <br></br>My hair and eyelashes turned white! #CanadianLife
@@ -57,7 +57,7 @@ function MyStory() {
         </div>
 
         <figure>
-          <img className="pictures" src="./images/barcelona.jpg" />
+          <img className="pictures" src="./images/others/barcelona.jpg" />
           <figcaption id="captions">
             My first tech event in Barcelona
           </figcaption>

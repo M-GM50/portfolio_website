@@ -20,14 +20,14 @@ function Projects() {
                 href="/pokedex/index.html"
                 target="_blank"
               >
-                Pokédex (JavaScript)
+                Pokédex <br></br>(JavaScript)
               </a>
             </figcaption>
           </figure>
           <a href="/pokedex/index.html" target="_blank">
             <img
               className="projectPictures"
-              src="./images/pikachuThumbnail.png"
+              src="./images/projects/pikachuThumbnail.png"
               alt="pokedex link"
             />
           </a>
@@ -49,7 +49,7 @@ function Projects() {
           <a href="/cssTransition/index.html" target="_blank">
             <img
               className="projectPictures"
-              src="./images/cssProject.png"
+              src="./images/projects/cssProject.png"
               alt="css project link"
             />
           </a>
@@ -63,7 +63,7 @@ function Projects() {
                 target="_blank"
               >
                 {" "}
-                Text Game (Python)
+                Text Game <br></br>(Python)
               </a>{" "}
             </figcaption>
           </figure>
@@ -73,7 +73,7 @@ function Projects() {
           >
             <img
               className="projectPictures"
-              src="./images/pythonProject.png"
+              src="./images/projects/pythonProject.png"
               alt="python project link"
             />
           </a>
@@ -97,7 +97,7 @@ function Projects() {
           >
             <img
               className="projectPictures"
-              src="./images/form.png"
+              src="./images/projects/form.png"
               alt="react project link"
             />
           </a>
@@ -118,7 +118,7 @@ function Projects() {
           <a href="https://sizo04.github.io/group-project-1/" target="_blank">
             <img
               className="projectPictures"
-              src="./images/branko.png"
+              src="./images/projects/branko.png"
               alt="python project link"
             />
           </a>
@@ -132,7 +132,7 @@ function Projects() {
                 target="_blank"
               >
                 {" "}
-                Color Picker (React)
+                Color Picker<br></br> (React)
               </a>{" "}
             </figcaption>
           </figure>
@@ -142,7 +142,7 @@ function Projects() {
           >
             <img
               className="projectPictures"
-              src="./images/colourPicker.png"
+              src="./images/projects/colourPicker.png"
               alt="React Project link"
             />
           </a>

@@ -1,4 +1,4 @@
-#skills {
+.skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -28,7 +28,7 @@
   text-align: center;
 }
 
-.cube img {
+.cube svg {
   width: auto;
   height: 55px;
 }

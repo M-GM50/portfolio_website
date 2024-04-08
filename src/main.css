@@ -66,6 +66,7 @@ a:hover {
 
 #mainText p {
   line-height: 3rem;
+  padding-left: 20px;
 }
 
 #name {
